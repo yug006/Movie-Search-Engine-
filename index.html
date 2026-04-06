@@ -14,27 +14,26 @@
             <h1>ONLINE MOVIE SEARCH ENGINE</h1>
         </div>
         <div class="header">
-
-            <input type="text" name="" id="input-box">
+            <input type="text" name="" id="input-box" autocomplete="off">
             <button id="search-btn">Search</button>
-
+            <div id="dropdown"></div>
         </div>
     </nav>
+
     <main>
-
-
-        <div class="movie-grid">
-
-
-        </div>
-        </div>
-
-
-
-        </div>
+        <div class="movie-grid"></div>
     </main>
-    <script src="script.js"></script>
 
+    <div class="modal-overlay">
+        <div id="card-modal">
+            <img id="modal-poster" alt="">
+            <div id="modal-details">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
